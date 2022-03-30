@@ -24,7 +24,6 @@ Tag.belongsToMany(Product, { through: ProductTag });
 
 
 
-//cross-reference Table (Many to many)
 
 
 module.exports = {
