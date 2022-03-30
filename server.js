@@ -1,9 +1,9 @@
-// requiring things used in this file
+// requiring packages
 const express = require('express');
 const routes = require('./routes');
 const sequelize = require('./config/connection');
 
-// creating the exrpess and port variables
+// creating the exrpess and port constant
 const app = express();
 const PORT = process.env.PORT || 3001;
 
